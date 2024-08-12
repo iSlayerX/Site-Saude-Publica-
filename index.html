@@ -3,54 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Problemas de Saúde Pública</title>
+    <title>Saúde Pública: Problemas e Soluções</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Problemas de Saúde Pública e Suas Soluções</h1>
-        <nav>
-            <ul>
-                <li><a href="#problemas">Problemas</a></li>
-                <li><a href="#solucoes">Soluções</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Saúde Pública</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#problemas">Problemas</a></li>
+                    <li><a href="#solucoes">Soluções</a></li>
+                    <li><a href="#estatisticas">Estatísticas</a></li>
+                    <li><a href="#noticias">Notícias</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Bem-vindo ao nosso site sobre Saúde Pública</h2>
+                <p>A saúde pública é um campo vasto e crucial para o bem-estar da sociedade. Este site explora os principais problemas de saúde pública e as estratégias para resolvê-los.</p>
+                <img src="https://via.placeholder.com/1200x500?text=Sa%C3%BAde+P%C3%BAblica" alt="Imagem sobre saúde pública">
+            </div>
+        </section>
         <section id="problemas">
-            <h2>Problemas de Saúde Pública</h2>
-            <article>
-                <h3>Doenças Crônicas</h3>
-                <p>Doenças como diabetes, hipertensão e doenças respiratórias crônicas afetam milhões de pessoas e são um grande desafio para a saúde pública.</p>
-            </article>
-            <article>
-                <h3>Infecções</h3>
-                <p>Infecções como gripe, tuberculose e COVID-19 podem se espalhar rapidamente e sobrecarregar os sistemas de saúde.</p>
-            </article>
-            <article>
-                <h3>Saúde Mental</h3>
-                <p>Problemas de saúde mental, como depressão e ansiedade, são frequentemente negligenciados, mas são críticos para a qualidade de vida.</p>
-            </article>
+            <div class="container">
+                <h2>Problemas de Saúde Pública</h2>
+                <p>A saúde pública enfrenta uma série de desafios que afetam a qualidade de vida de milhões de pessoas ao redor do mundo. Abaixo estão alguns dos principais problemas identificados:</p>
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200?text=Doen%C3%A7as+Cr%C3%B4nicas" alt="Doenças Crônicas">
+                    <h3>Doenças Crônicas</h3>
+                    <p>As doenças crônicas, como diabetes e hipertensão, têm um impacto significativo na qualidade de vida e representam um fardo para os sistemas de saúde. Estas condições muitas vezes requerem cuidados contínuos e gestão a longo prazo.</p>
+                    <p>Essas doenças são frequentemente associadas a fatores de risco modificáveis, como dieta inadequada, falta de exercício físico e tabagismo. Programas de prevenção e educação são essenciais para reduzir a prevalência dessas condições.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200?text=Infec%C3%A7%C3%B5es" alt="Infecções">
+                    <h3>Infecções</h3>
+                    <p>Infecções como gripe, tuberculose e COVID-19 têm o potencial de se espalhar rapidamente e causar surtos. A resposta eficaz a essas infecções envolve monitoramento, vacinação e medidas de controle de infecções.</p>
+                    <p>O controle de infecções é crucial para evitar pandemias e proteger as populações vulneráveis, como idosos e pessoas com doenças crônicas. A implementação de medidas de higiene e a promoção de vacinação são estratégias chave para combater a disseminação de infecções.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200?text=Sa%C3%BAde+Mental" alt="Saúde Mental">
+                    <h3>Saúde Mental</h3>
+                    <p>Os problemas de saúde mental, como depressão e ansiedade, são frequentemente subestimados, mas têm um impacto profundo na vida das pessoas. A falta de suporte adequado pode levar a uma deterioração significativa da qualidade de vida.</p>
+                    <p>É importante aumentar a conscientização sobre a saúde mental e oferecer suporte adequado por meio de serviços de saúde mental acessíveis e programas de intervenção precoce.</p>
+                </div>
+            </div>
         </section>
         <section id="solucoes">
-            <h2>Soluções</h2>
-            <article>
-                <h3>Prevenção</h3>
-                <p>Campanhas de prevenção e educação podem ajudar a reduzir a incidência de doenças crônicas e infecções.</p>
-            </article>
-            <article>
-                <h3>Acesso a Cuidados</h3>
-                <p>Garantir que todos tenham acesso a cuidados médicos de qualidade é fundamental para combater problemas de saúde.</p>
-            </article>
-            <article>
-                <h3>Saúde Mental</h3>
-                <p>Investir em programas de suporte psicológico e aumentar a conscientização sobre saúde mental pode ajudar a lidar com esses problemas.</p>
-            </article>
+            <div class="container">
+                <h2>Soluções</h2>
+                <p>Para enfrentar os desafios de saúde pública, várias soluções podem ser implementadas. Essas soluções envolvem políticas públicas, programas de educação e estratégias de intervenção:</p>
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200?text=Preven%C3%A7%C3%A3o" alt="Prevenção">
+                    <h3>Prevenção</h3>
+                    <p>Educação e campanhas de prevenção são fundamentais para reduzir a incidência de doenças crônicas e infecções. A promoção de hábitos saudáveis, como uma dieta equilibrada e atividade física regular, pode ajudar a prevenir doenças crônicas.</p>
+                    <p>Campanhas de vacinação e programas de rastreamento também desempenham um papel crucial na prevenção de doenças infecciosas e na detecção precoce de condições de saúde.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200?text=Acesso+a+Cuidados" alt="Acesso a Cuidados">
+                    <h3>Acesso a Cuidados</h3>
+                    <p>Garantir acesso universal a cuidados médicos é vital para enfrentar desafios de saúde pública. Isso inclui a criação de sistemas de saúde acessíveis e a eliminação de barreiras financeiras e geográficas ao acesso a serviços de saúde.</p>
+                    <p>Políticas de saúde que promovem a inclusão e a equidade são essenciais para garantir que todos tenham acesso a cuidados adequados.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200?text=Sa%C3%BAde+Mental" alt="Saúde Mental">
+                    <h3>Saúde Mental</h3>
+                    <p>Programas de suporte psicológico e campanhas de conscientização são essenciais para lidar com problemas de saúde mental. É importante reduzir o estigma associado à saúde mental e oferecer serviços de apoio acessíveis.</p>
+                    <p>Intervenções precoces e apoio comunitário podem ajudar a melhorar a qualidade de vida das pessoas com condições de saúde mental.</p>
+                </div>
+            </div>
         </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Saúde Pública</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
-</html>
+        <section id="estatisticas">
+            <div class="container">
+                <h2>Estatísticas Recentes</h2>
+                <p>Acompanhe as últimas estatísticas relacionadas aos principais problemas de saúde pública. Esses dados ajudam a entender a magnitude dos desafios e a avaliar o impacto das intervenções.</p>
+                <canvas id="estatisticasChart"></canvas>
+            </div>
+        </section>
+        <section id="noticias">
+            <div class="container">
+                <h2>Notícias Recentes</h2>
+                <p>Fique atualizado com as últimas notícias e desenvolvimentos no campo da saúde pública. As notícias incluem avanços em pesquisas, políticas de saúde e muito mais.</p>
+                <article>
+                    <img src="https://via.placeholder.com/600x300?text=Vacina%C3%A7%C3%A3o" alt="Vacinação">
+                    <h3>Avanços na Vacinação Contra a COVID-19</h3>
+                    <p>Recentes avanços na vacinação têm mostrado uma redução significativa nos casos de COVID-19 em várias regiões. A vacinação continua a ser uma ferramenta crucial na luta contra a pandemia.</p>
+                </article>
+                <article>
+                    <img src="https://via.placeholder.com/600x300?text=Diabetes" alt="Diabetes">
+                    <h3>Novas Diretrizes para o Tratamento de Diabetes</h3>
+                    <p>As novas diretrizes recomendam abordagens mais personalizadas para o tratamento de diabetes. Isso inclui estratégias de gestão baseadas em dados mais recentes e melhores práticas.</p>
+                </article>
+                <article>
+                    <img src="https://via.placeholder.com/600x300?text=Sa%C3%BAde+Mental" alt="Saúde Mental">
+                    <h3>Aumento da Conscientização sobre Saúde Mental</h3>
+                    <p>Campanhas recentes têm ajudado a aumentar a conscientização e a importância da saúde mental. A melhoria do acesso a serviços de apoio psicológico é um passo importante para apoiar a saúde mental da população.</p>
+                </article>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Tem alguma dúvida ou deseja mais informações? Entre em contato conosco preenchendo o
